@@ -24,3 +24,26 @@
     --box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     --button: linear-gradient(to right,#bbd2c5, #536976);
 }
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html:: ::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--button);
+    border-radius: 5rem;
+}
+
+/* CLASSES COMUNS*/
+
+
+/* CLASSES COMUNS FIM*/
