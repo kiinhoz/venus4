@@ -14,7 +14,7 @@
 
 
 :root{
-    --primary: #a4916d;
+    --primary: #c24682;
     --black: #000;
     --white: #fff;
     --light-black:#666;
@@ -22,7 +22,7 @@
     --bg: #f9f9f9;
     --border:0.1rem solid rgba(0,0,0,0.1);
     --box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    --button: linear-gradient(to right,#bbd2c5, #536976);
+    --button: linear-gradient(to right,#bbd2c5, #c24682);
 }
 
 
@@ -94,13 +94,13 @@ section{
     z-index: 1000; 
 }
 
-/* .header .logo img{
+.header .logo img{
     max-width: 8.7vw;
     height: auto;
     
-} */
+}
 
-.header .logo{
+/* .header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--black);
@@ -110,7 +110,7 @@ section{
 .header .logo i{
     color: var(--primary);
     padding-right: .5rem;
-}
+} */
 
 .header .navbar a{
     font-size: 1.9rem;
