@@ -64,7 +64,7 @@ section{
 
 /* CLASSES COMUNS FIM*/
 
-/** HEADER**/
+/** HEADER **/
 .header{
     position: fixed;
     top: 0;
@@ -75,17 +75,17 @@ section{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 2rem 9%;   
+    padding: 2rem 5%;   
     z-index: 1000; 
 }
 
-.header .logo img{
+/* .header .logo img{
     max-width: 8.7vw;
     height: auto;
     
-}
+} */
 
-/* .header .logo{
+.header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--black);
@@ -95,13 +95,13 @@ section{
 .header .logo i{
     color: var(--primary);
     padding-right: .5rem;
-} */
+}
 
 .header .navbar a{
     font-size: 1.9rem;
     font-weight: 400;
     color: var(--black);
-    margin:0 1rem;
+    margin: 1rem;
 
 }
 
@@ -117,8 +117,8 @@ section{
 .header .icons div{
     font-size: 2.5rem;
     margin-left: 1.7rem;
-    color:var(--white);
-    -webkit-text-stroke: 1rem var(primary);
+    color: var(--white);
+    -webkit-text-stroke: .1rem var(--primary);
     cursor: pointer;
 }
 .header .icons hover{
@@ -127,6 +127,23 @@ section{
 
 #menu-bar{
     display:none
+}
+.header .search{
+    position: absolute;
+    top: 110%;
+    /* right: -110%; */
+    right: 0;
+    background: var(--white);
+    color: var(--black);
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    width: 30rem;
+    border-radius: .5rem;
+}
+
+.header .search.active {
+    right: 2rem;
+    transition: .4s linear;
 }
 
 /***HEADER FIM***/
