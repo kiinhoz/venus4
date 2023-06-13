@@ -18,7 +18,7 @@
     --black: #000;
     --white: #fff;
     --light-black:#666;
-    --hover: rgba(244,244,244,0.8) ;
+    --hover: rgba(244,244,244,0.8);
     --bg: #f9f9f9;
     --border:0.1rem solid rgba(0,0,0,0.1);
     --box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -33,6 +33,11 @@ html{
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
+
+html::-webkit-scrollbar{
+    width: 0.8rem;
+}
+
 
 html::-webkit-scrollbar-track{
     background: transparent;
@@ -98,7 +103,7 @@ section{
     color: var(--primary);
 }
 
-.header .navbar .active{
+.header .navbar .active {
     color: var(--primary);
     font-weight: 600;
 }
