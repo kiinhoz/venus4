@@ -62,6 +62,21 @@ section{
     margin-bottom: 3rem;
 }
 
+.btn{
+    display: inline-block;
+    padding: 0.7rem 1.8rem;
+    color: var(--white);
+    background: var(--button);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%,7% 47%, 13% 0%);
+}
+.btn:hover{
+    background: linear-gradient(to left, #bbd2c5, #536976);
+    letter-spacing: 1.5px;
+}
+
 /* CLASSES COMUNS FIM*/
 
 /** HEADER **/
@@ -168,8 +183,36 @@ section{
     margin: 1rem 0;
     position: relative;
 }
+
+.header .shopping-cart .box .fa-trash{
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    font-size: 2rem;
+    color: var(--light-black);
+    cursor:pointer;
+}
+
 .header .shopping-cart .box img {
     height: 10rem;
+}
+
+.header .shopping-cart .content h3{
+    font-size: 1.7rem;
+    color: var(--primary);
+    padding-bottom: 1rem;
+}
+
+.header .shopping-cart .box .content .price{
+    color: var(--light-black);
+    font-size: 1.6rem;
+}
+
+.header .shopping-cart .total{
+    font-size: 2.5rem;
+    color: var(--primary);
+    text-align: center;
+    padding: 1rem 0;
 }
 
 /***HEADER FIM***/
