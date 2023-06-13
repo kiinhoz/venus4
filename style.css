@@ -131,8 +131,8 @@ section{
 .header .search{
     position: absolute;
     top: 110%;
-    /* right: -110%; */
-    right: 0;
+    right: -110%;
+    /* right: 0; */
     background: var(--white);
     color: var(--black);
     box-shadow: var(--box-shadow);
