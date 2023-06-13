@@ -9,7 +9,7 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: all ,2s linear;
+    /* transition: all ,2s linear; */
 }
 
 
@@ -74,12 +74,18 @@ section{
     box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 2rem 9%;   
     z-index: 1000; 
 }
 
-.header .logo{
+.header .logo img{
+    max-width: 8.7vw;
+    height: auto;
+    
+}
+
+/* .header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--black);
@@ -89,7 +95,7 @@ section{
 .header .logo i{
     color: var(--primary);
     padding-right: .5rem;
-}
+} */
 
 .header .navbar a{
     font-size: 1.9rem;
