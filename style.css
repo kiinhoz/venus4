@@ -146,4 +146,30 @@ section{
     transition: .4s linear;
 }
 
+.header .shopping-cart {
+    position: absolute;
+    top: 110%;
+    /* right: -110%; */
+    right: 0;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    width: 35rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.header .shopping-cart.active{
+    right: 2rem;
+}
+.header .shopping-cart .box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    position: relative;
+}
+.header .shopping-cart .box img {
+    height: 10rem;
+}
+
 /***HEADER FIM***/
