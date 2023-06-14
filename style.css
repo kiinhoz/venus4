@@ -62,7 +62,7 @@ section{
     margin-bottom: 3rem;
 }
 
-.btn{
+.btn {
     display: inline-block;
     padding: 0.7rem 1.8rem;
     color: var(--white);
@@ -158,19 +158,20 @@ section{
 
 .header .search.active {
     right: 2rem;
-    transition: .4s linear;
+    transition: .2s linear;
 }
 
 .header .shopping-cart {
     position: absolute;
     top: 110%;
-    /* right: -110%; */
-    right: 0;
+    right: -110%;
+    /* right: 0; */
     background: var(--white);
     box-shadow: var(--box-shadow);
     width: 35rem;
     padding: 1rem;
     border-radius: .5rem;
+    transition: 0.25s linear;
 }
 
 .header .shopping-cart.active{
@@ -191,6 +192,10 @@ section{
     font-size: 2rem;
     color: var(--light-black);
     cursor:pointer;
+}
+
+.header .shopping-cart .box .fa-trash:hover{
+    color: var(--black);
 }
 
 .header .shopping-cart .box img {
@@ -215,4 +220,42 @@ section{
     padding: 1rem 0;
 }
 
+.header .shopping-cart .btn{
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+
 /***HEADER FIM***/
+
+
+
+
+/* home */
+
+.home{
+    margin-top: 7.0rem;
+    min-height: 10vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url(img/1.jpg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.home .content{
+    max-width: 60rem;
+    padding-top: 8rem;
+}
+
+.home .content h3{
+    font-size: 7rem;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+
+/* home fim */
