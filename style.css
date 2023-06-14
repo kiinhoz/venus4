@@ -250,6 +250,7 @@ section{
     padding-top: 8rem;
 }
 
+
 .home .content h3{
     font-size: 7rem;
     color: var(--white);
@@ -259,3 +260,32 @@ section{
 
 
 /* home fim */
+
+
+
+/* mobile */
+/* Estilos para dispositivos móveis em geral */
+@media only screen and (max-width: 768px) {
+    .header    .navbar{
+        display: none;
+    }
+
+    .header .shopping-cart {
+    width: 23rem;
+    padding: .4rem;
+    
+    }
+    .header .shopping-cart .box img {
+        height: 9rem;
+    }
+
+    .header .shopping-cart .total {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .header .shopping-cart .content h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+}
