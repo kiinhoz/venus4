@@ -263,6 +263,9 @@ section{
 
 
 
+
+
+
 /* mobile */
 /* Estilos para dispositivos móveis em geral */
 @media only screen and (max-width: 768px) {
@@ -271,8 +274,8 @@ section{
     }
 
     .header .shopping-cart {
-    width: 23rem;
-    padding: .4rem;
+        width: 23rem;
+        padding: .4rem;
     
     }
     .header .shopping-cart .box img {
@@ -280,12 +283,28 @@ section{
     }
 
     .header .shopping-cart .total {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding: 1rem 0;
     }
 
     .header .shopping-cart .content h3 {
         font-size: 1.2rem;
         padding-bottom: 1rem;
+    }
+    .home{
+        background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url(img/9.jpg);
+        background-size: cover;
+    }
+    .header .logo img{
+        max-width: 25.7vw;
+        height: auto;
+        
+    }
+
+    .home .content h3 {
+        font-size: 5rem;
+        color: var(--white);
+        line-height: 1.2;
+        margin-bottom: 2rem;
     }
 }
