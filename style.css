@@ -533,13 +533,26 @@ section {
     color: var(--white);
 }
 
-.contato .row form .inputBox input{
+.contato .row form .inputBox input, 
+.contato .row form textarea{
+    padding: 1rem 1.2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    color:var(--primary);
+    margin: 0.7rem 0;
+    width: 100%;
+    
 
 }
 
 .contato .row .box{
     flex: 1 1 40rem;
     border: 2px solid var(--white);
+    padding: 1.7rem;
+    border-radius: .5rem;
+    text-align: center;
+    overflow: hidden;
 
 }
 
