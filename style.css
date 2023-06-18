@@ -482,7 +482,7 @@ section {
 }
 
 .featured .box-container .box:hover .content{
-    top: 69%;
+    top: 64%;
     background: #949494cc;
 
 }
@@ -497,6 +497,50 @@ section {
     color: white;
     font-size: 2rem;
     padding: 1rem 0;
+}
+
+.contato{
+    padding:0;
+}
+
+.contato .background{
+    background: linear-gradient rgba(0,0,0,0.3),(rgba(0,0,0,0.4)),url(./img/2.jpg);
+    background-size: cover;
+    background-position:center ;
+    z-index: 10;
+}
+
+.contato .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: 4rem 9%;
+
+}
+
+.contato .row form{
+    flex: 1 1 52rem;
+    padding: 2rem;
+    border: 2px solid var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    
+}
+
+.contato .row form h3{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: var(--white);
+}
+
+.contato .row form .inputBox input{
+
+}
+
+.contato .row .box{
+    flex: 1 1 40rem;
+    border: 2px solid var(--white);
+
 }
 
 /* FEATURED fim*/
