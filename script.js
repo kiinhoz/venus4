@@ -5,6 +5,13 @@ document.querySelector('#search-bar').onclick  = () => {
     shoppingcart.classList.remove('active');
 
 
+
+}
+
+let navbar = document.querySelector('.navbar');
+
+document.querySelector('#menu-bar').onclick  = () => {
+    navbar.classList.toggle('active');
 }
 
 let shoppingcart = document.querySelector('.shopping-cart');
@@ -12,9 +19,12 @@ let shoppingcart = document.querySelector('.shopping-cart');
 document.querySelector('#cart-btn').onclick  = () => {
     shoppingcart.classList.toggle('active');
     search.classList.remove('active');
+
 }
 
-var swiper = new Swiper('.produto-slider',{
+
+
+var swiper = new Swiper('.produto-slider', {
     loop:true,
     grabCursor:true,
     spaceBetween:20,
