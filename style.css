@@ -597,14 +597,14 @@ section {
     background: var(--primary);
     color: var(--white);
     text-align: center;
-    border-radius: 5rem;
+    border-radius: .5rem;
     margin-right: 1rem;
     cursor: pointer;
     margin-top: 1rem;
 }
 
 .footer .box-container .box .icons i:hover {
-    transform: translate(-6px);
+    transform: translateY(-6px);
 
 }
 
@@ -614,17 +614,18 @@ section {
     font-size: 1.7rem;
     font-weight: 400;
     color:var(--light-black);
+    position: relative;
 }
 
 .footer .box-container .box a:hover{
     color: var(--primary);
 }
-    .footer .box-container .box a:after {
+.footer .box-container .box a:after {
     content: '';
     position: absolute;
     bottom: .5rem;
     left: 0;
-    width: 100%;
+    width: 0%;
     height: 2px;
     background: var(--primary);
     transition: all .4s linear;
@@ -713,8 +714,8 @@ section {
     .home .content h3{
         font-size: 5rem;
     }
+    .banner h1 {
+        font-size: 4rem;
+    }
 }
 
-.banner h1 {
-    font-size: 4rem;
-}
