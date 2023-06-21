@@ -283,12 +283,13 @@ section {
     height: 45rem;
     width: 100%;
     overflow: hidden;
+
 }
 
 .produto .produto-slider .slide .img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .produto .produto-slider .slide .img img:hover {
@@ -383,6 +384,7 @@ section {
     width: 100%;
     height: 100%;
     cursor: pointer;
+    object-fit: contain;
 
 }
 .novidade .box-container .box .image img:hover{
